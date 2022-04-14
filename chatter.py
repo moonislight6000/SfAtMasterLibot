@@ -17,11 +17,11 @@ class Chatter:
             return self.cpu
         elif command == 'draw':
             return self.draw_message
-        elif command == 'sf':
+        elif command == 'djfj':
             return lichess_game.engine.id["name"]
         elif command == 'eval':
             return lichess_game.last_message
-        elif command == 'name':
+        elif command == 'idfhkld':
             return f'{lichess_game.username} running {lichess_game.engine.id["name"]}'
         elif command == 'ram':
             return self.ram_message
