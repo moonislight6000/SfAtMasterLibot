@@ -14,6 +14,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y sudo curl apt-uti
 #RUN wget --no-check-certificate "https://abrok.eu/stockfish/builds/9f6bcb38c032a18c8b1aec318d5c7255827f9c7b/linux64ssse/stockfish_22040110_x64_ssse.zip" -O chess-engine.zip
 #RUN 7z e chess-engine.zip && rm chess-engine.zip && mv stockfish* chess-engine
 RUN bash sf.sh
+RUN wget --no-check-certificate "https://data.stockfishchess.org/nn/nn-6877cd24400e.nnue" -O nn-6877cd24400e.nnue
 
 COPY requirements.txt .
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
