@@ -59,8 +59,8 @@ challenge:                                # Incoming challenges. (Commenting all
   max_initial: 1800                        # Maximum amount of initial time to accept a challenge.
   variants:                               # Chess variants to accept (https://lichess.org/variant).
     - standard
-#   - chess960
-#   - fromPosition
+    - chess960
+    - fromPosition
 #   - antichess
 #   - atomic
 #   - crazyhouse
