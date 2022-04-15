@@ -90,5 +90,5 @@ matchmaking:
 
 
 books: 
-    lichess-book: "./engines/lichess-book.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
-    allplay: "./engines/elo3300.bin"
+    lichess-book: "./engines/Perfect2021.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
+    allplay: "./engines/Perfect2021.bin"
