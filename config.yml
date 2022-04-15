@@ -40,7 +40,7 @@ engine:                                   # Engine settings.
     score: -1000                          # If the score is less than or equal to this value, the bot resigns (in cp).
     consecutive_moves: 15                  # How many moves in a row the score has to be below the resign value.
   uci_options:                            # Arbitrary UCI options passed to the engine. (Commenting allowed)
-    Move Overhead: 500                    # Increase if your bot flags games too often.
+    Move Overhead: 453                    # Increase if your bot flags games too often.
     Threads: 4                            # Max CPU threads the engine can use.
     Hash: 128                             # Max memory (in megabytes) the engine can allocate.
     Skill Level: 20
@@ -53,7 +53,7 @@ engine:                                   # Engine settings.
 
 challenge:                                # Incoming challenges. (Commenting allowed)
   concurrency: 1                          # Number of games to play simultaneously.
-  min_increment: 1                        # Minimum amount of increment to accept a challenge.
+  min_increment: 0                        # Minimum amount of increment to accept a challenge.
   max_increment: 3                       # Maximum amount of increment to accept a challenge.
   min_initial: 0                          # Minimum amount of initial time to accept a challenge.
   max_initial: 1800                        # Maximum amount of initial time to accept a challenge.
@@ -82,7 +82,7 @@ challenge:                                # Incoming challenges. (Commenting all
 
 matchmaking:
   initial_time: 30                        # Initial time for matchmaking mode.
-  increment: 1                            # Increment time for matchmaking mode.
+  increment: 0                            # Increment time for matchmaking mode.
   rated: false                            # Activate rated games in matchmaking mode.
   timeout: 10                             # Time until a challenge is canceled. 
 # min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
