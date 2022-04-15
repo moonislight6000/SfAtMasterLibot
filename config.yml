@@ -27,7 +27,7 @@ engine:                                   # Engine settings.
       min_time: 40                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
     online_egtb:
-      enabled: true                      # Activate online endgame tablebases from Lichess.
+      enabled: false                      # Activate online endgame tablebases from Lichess.
       min_time: 20                       # Time the bot must have at least to use the online move.
       timeout: 6                          # Time the server has to respond.
   offer_draw:
